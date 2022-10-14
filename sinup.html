@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            body{
+                padding:0;
+                margin:0 auto;
+                width:1500px;
+                height:1500px;
+                background:black;
+                opacity:0.95;
+                background-size:100% 100%;
+            }
+            *{
+                padding:0;
+                margin:0;
+                box-sizing:border-box;
+
+            }
+            #form1{
+                width:475px;
+                height:500px;
+                border:3px solid grey;
+                border-radius:15px;
+                margin:100px auto;
+                box-shadow:5px 3px 10px 0px #ffffff,0px 5px 5px 0px #ffffff;
+                background:url('img/blacks.jpg');
+                background-size:100% 100%;
+                background-position:center;
+                transition:1.5s;
+                
+            }
+            
+            
+             form{
+                margin:70px 10px 0 10px;
+             }
+              
+              
+             input{
+                height:35px;
+                width:450px;
+                background:white;
+                border-radius:10px;
+                font-size:16px;
+                font-family:verdana;
+                padding-left:4px;
+             }
+             #submit{
+                position:relative;
+                
+                width:450px;
+                text-align:center;
+                font-family:courier;
+                font-size:20px;
+                font-weight:bold;
+                background:#5b5b5b;
+                color:white;
+                transition:0.5s;
+             }
+             #submit:hover{
+                background:#333333;
+
+             }
+             label{
+                color:white;
+                font-family:courier;
+                position:relative;
+                top:-10px;
+                font-size:20px;
+             }
+             
+             h2{
+                color:white;
+                text-align:center;
+                position:relative;
+                top:15px;
+                font-family:cursive;
+                font-size:24px;
+             }
+             
+        </style>
+    </head>
+    <body>
+        
+        <div id="form1">
+            <h2>Sign Up</h2>
+            <form action="">
+                <label for="" class="label1 ">Username</label><br>
+                <input type="text" id="input1"><br><br>
+                <label for="">Email</label><br>
+                <input type="email"><br><br>
+                <label for="">Passowrd</label><br>
+                <input type="password"><br><br>
+                <label for="">Confirm Passowrd</label><br>
+                <input type="password"><br><br><br>
+                <input type=" submit" id="submit" value="Sign in">
+            </form>
+        </div>
+    </body>
+</html>
